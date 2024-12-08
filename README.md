@@ -1,4 +1,4 @@
-# New amendments and features:
+# New amendments and features
 
 ✅ The issues of SQL injections connected to improperly working the Json Web Token Middleware facility are exempt now
 ✅ The Spring JPA models related to internal project features are implemented now
