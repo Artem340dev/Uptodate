@@ -7,7 +7,6 @@ services:
     environment:
       MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
       MYSQL_DATABASE: "uptodate"
-      MYSQL_USER: "root"
       MYSQL_PASSWORD: ""
     ports:
       - "3306:3306"
