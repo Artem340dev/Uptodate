@@ -9,6 +9,7 @@
 
 **You are capable of executing the Backend by using Docker. Keep the further requirements:**
 1. Download the project from the Github repository
-2. Open the project folder, execute the further command: `docker-compose up --build`
-3. The Docker environment is going to be assembled
-4. After assembling, please, reboot all the containers
+2. Open the project folder, execute the further command
+   `docker-compose up --build`
+4. The Docker environment is going to be assembled
+5. After assembling, please, reboot all the containers
