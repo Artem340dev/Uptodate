@@ -20,7 +20,6 @@ public class ArticleTopic {
 
     @Getter
     @Setter
-    @Column(unique = true)
     private String parent;
 
     @Getter
@@ -28,6 +27,8 @@ public class ArticleTopic {
     @Column(unique = true)
     private String name;
 
+    @Getter
+    @Setter
     @ManyToMany(mappedBy = "topics")
     private Set<Article> articles = new HashSet<>();
 }
