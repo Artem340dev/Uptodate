@@ -1,9 +1,8 @@
-package me.artemiyulyanov.uptodate.requests;
+package me.artemiyulyanov.uptodate.web;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.NoArgsConstructor;
-import org.springframework.stereotype.Component;
 
 import java.lang.reflect.Method;
 import java.util.List;

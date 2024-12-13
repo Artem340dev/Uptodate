@@ -4,7 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73271970-e87c-44d1-a217-0e37f2755190" name="Changes" comment="" />
+    <list default="true" id="73271970-e87c-44d1-a217-0e37f2755190" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/controllers/AuthenticatedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/controllers/auth/requests/RegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/controllers/auth/requests/VerifyCodeRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/mail/EmailVerificationCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/mail/MailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/configuration/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/configuration/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/configuration/SwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/controllers/auth/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/controllers/api/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/controllers/api/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/jwt/JWTAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/jwt/JWTAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/models/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/models/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/models/ArticleTopic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/models/ArticleTopic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/repositories/ArticleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/repositories/ArticleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/repositories/ArticleTopicRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/repositories/ArticleTopicRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/requests/ExemptInRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/web/ExemptInRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/requests/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/controllers/auth/requests/LoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/requests/PaginatedResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/web/PaginatedResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/requests/RequestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/web/RequestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/requests/SafeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/web/SafeEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/requests/ServerResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/web/ServerResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/services/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/services/ArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/services/ArticleTopicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/services/ArticleTopicService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/artemiyulyanov/uptodate/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,10 +46,13 @@
       <list>
         <option value="Interface" />
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="Dockerfile" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -31,24 +65,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.UptodateApplication.executor": "Run",
-    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
-    "Maven.uptodate [clean].executor": "Run",
-    "Maven.uptodate [compile].executor": "Run",
-    "Maven.uptodate [install].executor": "Run",
-    "Maven.uptodate [package].executor": "Run",
-    "Maven.uptodate [validate].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Artemii/IdeaProjects/TaskManager",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.UptodateApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.uptodate [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.uptodate [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.uptodate [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.uptodate [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.uptodate [validate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.uptodate [verify].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Artemii/IdeaProjects/TaskManager&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Artemii\IdeaProjects\Uptodate\src\main\java\me\artemiyulyanov\uptodate" />
@@ -87,7 +124,9 @@
       </method>
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml" />
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">

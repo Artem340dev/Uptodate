@@ -2,6 +2,7 @@ package me.artemiyulyanov.uptodate.services;
 
 import jakarta.annotation.PostConstruct;
 import jakarta.transaction.Transactional;
+import me.artemiyulyanov.uptodate.models.Role;
 import me.artemiyulyanov.uptodate.models.User;
 import me.artemiyulyanov.uptodate.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -72,6 +73,30 @@ public class UserService implements UserDetailsService {
 
     public Optional<User> findByUsername(String username) {
         return userRepository.findByUsername(username);
+    }
+
+    public Optional<User> findById(Long id) {
+        return userRepository.findById(id);
+    }
+
+    public User createNewUser(User user) {
+        Role basicRole = roleService.findRoleByName("USER");
+        user.setRoles(Set.of(basicRole));
+
+        userRepository.save(user);
+        return user;
+    }
+
+    public boolean existsByUsername(String username) {
+        return userRepository.existsByUsername(username);
+    }
+
+    public boolean existsByEmail(String email) {
+        return userRepository.existsByEmail(email);
+    }
+
+    public boolean userExists(String username, String email) {
+        return existsByEmail(email) && existsByUsername(username);
     }
 
     public boolean isUserVaild(String username, String password) {

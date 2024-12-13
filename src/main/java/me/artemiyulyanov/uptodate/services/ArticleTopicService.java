@@ -4,12 +4,10 @@ import jakarta.annotation.PostConstruct;
 import me.artemiyulyanov.uptodate.models.ArticleTopic;
 import me.artemiyulyanov.uptodate.repositories.ArticleTopicRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.DependsOn;
 import org.springframework.stereotype.Service;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 import java.util.stream.Collectors;
 
 @Service
@@ -159,7 +157,15 @@ public class ArticleTopicService {
         articleTopicRepository.saveAll(topics);
     }
 
+    public Optional<ArticleTopic> findById(Long id) {
+        return articleTopicRepository.findById(id);
+    }
+
     public List<ArticleTopic> findByParent(String parent) {
         return articleTopicRepository.findByParent(parent);
+    }
+
+    public Optional<ArticleTopic> findByName(String name) {
+        return articleTopicRepository.findByName(name);
     }
 }

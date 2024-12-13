@@ -1,21 +1,15 @@
-package me.artemiyulyanov.uptodate.requests;
+package me.artemiyulyanov.uptodate.web;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
-import jakarta.persistence.Entity;
 import org.springframework.context.annotation.Bean;
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import org.thymeleaf.spring6.expression.Fields;
 
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
-import java.util.Arrays;
-import java.util.List;
 import java.util.Map;
 
 @Service
@@ -97,6 +91,12 @@ public class RequestService {
                         .build()
                 );
     }
+
+//    public ResponseEntity executeRedirection(String location) {
+//        return ResponseEntity.status(HttpStatus.FOUND)
+//                .header("Location", location)
+//                .build();
+//    }
 
 //    public <E> E applyExemptionRequirements(E entity) {
 //        try {
