@@ -1,4 +1,4 @@
-package me.artemiyulyanov.uptodate.requests;
+package me.artemiyulyanov.uptodate.web;
 
 import lombok.*;
 import lombok.experimental.SuperBuilder;

@@ -11,8 +11,8 @@ import java.util.Date;
 
 @Component
 public class JWTUtil {
-    private final Key key = Keys.secretKeyFor(SignatureAlgorithm.HS256);
-    private final long EXPIRY_TIME_MS = 1000 * 60 * 15; // 15 minutes is an expiration timeline
+    public static final long EXPIRY_TIME_MS = 1000 * 60 * 15; // 15 minutes is an expiration timeline
+    public static final Key key = Keys.secretKeyFor(SignatureAlgorithm.HS256);
 
     public String generateToken(String username) {
         return Jwts.builder()

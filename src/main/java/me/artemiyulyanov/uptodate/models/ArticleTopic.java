@@ -1,5 +1,6 @@
 package me.artemiyulyanov.uptodate.models;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -20,7 +21,6 @@ public class ArticleTopic {
 
     @Getter
     @Setter
-    @Column(unique = true)
     private String parent;
 
     @Getter
@@ -28,6 +28,9 @@ public class ArticleTopic {
     @Column(unique = true)
     private String name;
 
+    @Getter
+    @Setter
+    @JsonIgnore
     @ManyToMany(mappedBy = "topics")
     private Set<Article> articles = new HashSet<>();
 }
