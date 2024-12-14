@@ -14,10 +14,13 @@ import java.time.Duration;
 import java.time.LocalDateTime;
 import java.util.EnumMap;
 import java.util.List;
+import java.util.Objects;
 
 @Service
 @Transactional
 public class MailService {
+    public static final Duration VERIFICATION_CODE_EXPIRATION = Duration.ofMinutes(15);
+
     @Autowired
     private RedisTemplate<String, EmailVerificationCode> verificationCodes;
 
@@ -34,7 +37,7 @@ public class MailService {
                 .code(Integer.toString(generateRandomCode()))
                 .credentials(credentials)
                 .build();
-        verificationCodes.opsForValue().set(email, verificationCode, Duration.ofHours(1));
+        verificationCodes.opsForValue().set(email, verificationCode, VERIFICATION_CODE_EXPIRATION);
 
         SimpleMailMessage message = new SimpleMailMessage();
         message.setTo(email);
@@ -59,11 +62,11 @@ public class MailService {
     }
 
     public boolean validateCode(String email, String code) {
-        return isCodeSent(email) && verificationCodes.opsForValue().get(email).getCode().equals(code);
+        return isCodeSent(email) && Objects.requireNonNull(verificationCodes.opsForValue().get(email)).getCode().equals(code);
     }
 
     public boolean isCodeSent(String email) {
-        return verificationCodes.hasKey(email);
+        return Boolean.TRUE.equals(verificationCodes.hasKey(email));
     }
 
     private int generateRandomCode() {
