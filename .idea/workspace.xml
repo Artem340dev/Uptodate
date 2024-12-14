@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73271970-e87c-44d1-a217-0e37f2755190" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="73271970-e87c-44d1-a217-0e37f2755190" name="Changes" comment="Uptodate v0.2.2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,11 +132,20 @@
       <option name="project" value="LOCAL" />
       <updated>1733761257719</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Uptodate v0.2.2">
+      <option name="closed" value="true" />
+      <created>1734179113581</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734179113581</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Uptodate v0.2.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uptodate v0.2.1" />
+    <MESSAGE value="Uptodate v0.2.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uptodate v0.2.2" />
   </component>
 </project>
